@@ -24,7 +24,7 @@ public class ProductDB {
             b.setCode(productCode);
             b.setDescription("Lennon's MySQL");
             b.setPrice(54.50);
-            b.setAuthor("Jim Lennon");
+            b.setAuthor("Paul Lennon");
             p = b;
         } else if (productCode.equalsIgnoreCase("studios")) {
             Software s = new Software();
